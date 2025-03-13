@@ -1,0 +1,1 @@
+const url = "https://raw.githubusercontent.com/BenceCsordas/JSON-portfolio/refs/heads/main/data.json"

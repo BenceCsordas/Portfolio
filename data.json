@@ -1,0 +1,84 @@
+[
+	{
+		"id": "1",
+		"title": "Ingatlaniroda",
+		"photo_url": "https://res.cloudinary.com/dgodcsh3p/image/upload/v1740729470/ingatlan_gillmf.png",
+		"repo-link": "https://github.com/BenceCsordas/ingatlaniroda",
+		"topics": [
+			"fetch API",
+			"Set adatszerkezet",
+			"Array.from()",
+			"radió gombok használata",
+			"checkboxok használata",
+			"select használata"
+		],
+		"site-link": "https://bencecsordas.github.io/ingatlaniroda/"
+	},
+	{
+		"id": "2",
+		"title": "Products",
+		"photo_url": "https://res.cloudinary.com/dgodcsh3p/image/upload/v1740729470/products_g6ans5.png",
+		"repo-link": "https://github.com/BenceCsordas/Products",
+		"topics": [
+			"fetch API",
+			"checkboxok használata",
+			"Reszponzív design",
+			"Javascript függvények"
+		],
+		"site-link": "https://bencecsordas.github.io/Products/"
+	},
+	{
+		"id": "3",
+		"title": "Virágbolt",
+		"photo_url": "https://res.cloudinary.com/dgodcsh3p/image/upload/v1740729577/virag_y04edn.png",
+		"repo-link": "https://github.com/BenceCsordas/Viragbolt",
+		"topics": [
+			"fetch API",
+			"Set adatszerkezet",
+			"Array.from()",
+			"radió gombok használata",
+			"checkboxok használata",
+			"select használata"
+		],
+		"site-link": "https://viragbolt.netlify.app/"
+	},
+	{
+		"id": "4",
+		"title": "Search",
+		"photo_url": "https://res.cloudinary.com/dgodcsh3p/image/upload/v1740729470/cat_epuvtm.png",
+		"repo-link": "https://github.com/BenceCsordas/Private",
+		"topics": [
+			"fetch API",
+			"checkboxok használata",
+			"Reszponzív design",
+			"Javascript függvények"
+		],
+		"site-link": "https://thecutestcatsever.netlify.app/"
+	},
+	{
+		"id": "5",
+		"title": "Users",
+		"photo_url": "https://res.cloudinary.com/dgodcsh3p/image/upload/v1740729470/users_uxehil.png",
+		"repo-link": "https://github.com/BenceCsordas/Users",
+		"topics": [
+			"fetch API",
+			"checkboxok használata",
+			"Reszponzív design",
+			"Javascript függvények"
+		],
+		"site-link": "https://bencecsordas.github.io/Users/"
+	},
+	{
+		"id": "6",
+		"title": "Autókölcsönzés",
+		"photo_url": "https://res.cloudinary.com/dgodcsh3p/image/upload/v1740729470/auto_tfrygg.png",
+		"repo-link": "https://github.com/BenceCsordas/autokolcsonzes",
+		"topics": [
+			"fetch API",
+			"checkboxok használata",
+			"Reszponzív design",
+			"Javascript függvények"
+		],
+		"site-link": "https://bencecsordas.github.io/autokolcsonzes/teszt.html"
+	}
+]

@@ -1,0 +1,160 @@
+#pfp {
+    border-radius: 50%;
+    border: 3px solid white;
+    width: 25%;
+}
+body {
+    
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+h1 {
+    color: white;
+    font-weight: bold;
+}
+#logo {
+    background-color: orangered;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin: auto 0px auto 5px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    
+
+    justify-content: center;
+}
+
+nav {
+    
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    right: 10px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+#profile {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(145deg, rgb(194, 123, 0), rgb(255, 149, 0), rgb(255, 233, 92));
+    background-repeat: no-repeat;
+}
+#alIt {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    margin: 100px auto 25px auto;
+    
+    gap: 5px;
+   
+}
+#bholder{
+    margin-top: 100px;
+      
+}
+
+.btn {
+    background-color: #fff;
+    color: orangered;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+.btn:nth-child(3){
+    background-color: #ffffffaa;
+}
+
+#vl{
+    color: orangered;
+    font-weight: bold;
+}
+blockquote {
+    color: rgb(72, 72, 247);
+    font-weight: bold;
+}
+
+#rolam{
+    background: linear-gradient(145deg, rgb(255, 149, 0), rgb(255, 233, 92), rgb(240, 238, 211));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: start;
+}
+h2{
+    margin: 5px;
+
+}
+#asd{
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 10px;
+}
+#abouttext {
+    text-indent: 10px;
+}
+
+#munkaim {
+    min-height: 100vh;
+    background: linear-gradient(145deg, rgb(255, 149, 0), rgb(255, 233, 92), rgb(240, 238, 211));
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 768px) {
+    #alIt {
+        flex-direction: column;
+        
+    }
+    #buttons {
+        flex-wrap: wrap;
+    }
+    #pfp {
+        width: 50%;
+    }
+
+}
+@media only screen  and (max-width: 330px){
+    ul{
+        padding-inline-start: 0;
+    }
+}
