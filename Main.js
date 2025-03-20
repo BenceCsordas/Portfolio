@@ -12,18 +12,26 @@ function renderProjects(data){
         console.log(site_link);
         
         document.getElementById("munkaim").innerHTML += `
-            <div id="${id}">
+        <div id="project">
+            <div id="innerpr">
+            <div class="iprpr">
+            <img src="${photo_url}" alt="" id="munkaImg">
+            </div>
+             <div class="iprpr">
                 <h1>${title}</h1>
-                <img src="${photo_url}" alt="" id="munkaImg">
+                
+                <h3>Témakörök</h3>
+                <ul id="workitems">
+                <li>${topics[0]}</li>
+                <li>${topics[1]}</li>
+                <li>${topics[2]}</li>
+                </ul>   
                 <a href="${site_link}">Site link</a>
                 <a href="${repo_link}">Repo link</a>
-                           
-             <ul>
-                 <li>${topics[0]}</li>
-                 <li>${topics[1]}</li>
-                 <li>${topics[2]}</li>
-             </ul>   
-        </div>`
+                </div>
+            </div>
+        </div>
+            `
      
 
             
