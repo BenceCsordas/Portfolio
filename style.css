@@ -276,7 +276,27 @@ form {
     height: 100%;
 }
 form input {
-    width: 80%;
+    width: 80%;  
+  border: 0;
+  border-bottom: 2px solid #324376;
+  outline: 0;
+  font-size: 1rem;
+  color: #586BA4;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+form input:focus {
+    transition: 2s;
+    width: 80%;  
+    border: 0;
+    border-bottom: 4px solid #327646;
+    outline: 0;
+    font-size: 1rem;
+    color: #327646;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
 }
 form input:nth-child(5){
     min-height: 20vh;
