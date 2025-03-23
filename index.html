@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
     <title>Portfolió</title>
     <script src="getData.js"></script>
     <script src="Main.js" defer></script>
@@ -13,7 +14,9 @@
         
         
         <nav>
-            <div id="logo"><a href="#" id="top"><span></span></a></div>
+            <div id="logo"><a href="#" id="top"><span></span></a>
+                <h3 id="signature"><a href="#" id="top">CsB</a> </h3>               
+            </div>
             <ul id="navitems">
                 <li><a href="#rolam">Rólam</a><span id="vl">|</span></li>
                 <li><a href="#munkaim">Munkáim</a><span id="vl">|</span></li>
@@ -23,8 +26,8 @@
     
     
         
-        <section id="profile">  
-            <div id="alIt">
+        <section id="profile" >  
+            <div id="alIt" class="slide-right">
                 <img src="kepek/me2.jpg" alt="saját fotó" id="pfp">              
             <span style="display: flex; flex-direction: column;">
                 <h1>Csordás Bence</h1>
@@ -41,7 +44,7 @@
         
 
         <section id="rolam">
-            <span id="aboutme">
+            <span id="aboutme" class="push-left">
                 <h2>Rólam</h2>
                 <p id="abouttext">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>
             </span>
@@ -56,7 +59,7 @@
             <h1>Kapcsolatok</h1>
             <div class="contactholder">
 
-                <div class="contactdiv">
+                <div class="contactdiv push-down">
                     <h3>Elérhetőségeim</h3>
                     <ul>
                         <li>🎃asdasd@asd.com</li>
@@ -64,7 +67,7 @@
                         <li>🔒 Kecskemét</li>
                     </ul>
                 </div>
-                <div class="contactdiv">
+                <div class="contactdiv push-down">
                     <h3>Contact Form</h3>
                     <form>
                         <input type="text" name="" id="" placeholder="First Name">
@@ -75,7 +78,7 @@
                         <button type="button" id="submitbtn">Submit</button>
                     </form>
                 </div>
-                <div class="contactdiv">
+                <div class="contactdiv push-down">
                     <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d505.5164037125686!2d19.68767076216851!3d46.91758275229163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4743da039cc46819%3A0x76e03484e50b2f33!2zS2Vjc2tlbcOpdGkgU1pDIEthbmTDsyBLw6FsbcOhbiBUZWNobmlrdW0!5e0!3m2!1shu!2shu!4v1742457479536!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
