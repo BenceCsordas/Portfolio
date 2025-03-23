@@ -61,21 +61,21 @@ function renderProjects(data){
         if (document.documentElement.scrollTop > 2100) {
             projects[1].className = "slide-right";
         }
-        if (document.documentElement.scrollTop > 2600) {
+        if (document.documentElement.scrollTop > 2400) {
             projects[2].className = "slide-right";
         }
-        if (document.documentElement.scrollTop > 3000) {
+        if (document.documentElement.scrollTop > 2800) {
             projects[3].className = "slide-right";
         }
-        if (document.documentElement.scrollTop > 3500) {
+        if (document.documentElement.scrollTop > 3200) {
             projects[4].className = "slide-right";
         }
-        if (document.documentElement.scrollTop > 4000) {
+        if (document.documentElement.scrollTop > 3600) {
             projects[5].className = "slide-right";
         }
         
         
-        if (document.documentElement.scrollTop > 4400) {
+        if (document.documentElement.scrollTop > 4000) {
             
             
             
