@@ -45,37 +45,37 @@ function renderProjects(data){
     window.onscroll = function() {addAnimations()};
 
     function addAnimations() {
-        console.log("scrolled");
+        
      
     const projects = document.querySelectorAll("#project")   
     const contacts = document.querySelectorAll(".contactdiv")
-    if(window.innerWidth >= 1024){
-        console.log("1024nal nagyobb");
-        
+    console.log(document.documentElement.scrollTop);
+    
+    if(window.innerWidth >= 1024)  {
         if (document.documentElement.scrollTop > 800) {
             document.getElementById("aboutme").className = "slide-left"
         }
-        if (document.documentElement.scrollTop > 1500) {
+        if (document.documentElement.scrollTop > 1600) {
             projects[0].className = "slide-right";
         }
-        if (document.documentElement.scrollTop > 1800) {
+        if (document.documentElement.scrollTop > 2100) {
             projects[1].className = "slide-right";
         }
-        if (document.documentElement.scrollTop > 2200) {
+        if (document.documentElement.scrollTop > 2600) {
             projects[2].className = "slide-right";
         }
-        if (document.documentElement.scrollTop > 2400) {
+        if (document.documentElement.scrollTop > 3000) {
             projects[3].className = "slide-right";
         }
-        if (document.documentElement.scrollTop > 2800) {
+        if (document.documentElement.scrollTop > 3500) {
             projects[4].className = "slide-right";
         }
-        if (document.documentElement.scrollTop > 3100) {
+        if (document.documentElement.scrollTop > 4000) {
             projects[5].className = "slide-right";
         }
         
         
-        if (document.documentElement.scrollTop > 3500) {
+        if (document.documentElement.scrollTop > 4400) {
             
             
             
@@ -84,11 +84,15 @@ function renderProjects(data){
             setTimeout(delayed, 1000, 2)
             
         }
+    }  
+        
+        
 
 
-    }   
+      
+    
     else if(window.innerWidth > 769 && window.innerWidth < 1024){
-        console.log("768nal nagyobb");
+        
         
         if (document.documentElement.scrollTop > 800) {
             document.getElementById("aboutme").className = "slide-left"
@@ -125,26 +129,27 @@ function renderProjects(data){
 
 
     }else if(window.innerWidth <= 768 && window.innerWidth > 320) {
-        console.log("768 320 kozott");
-        if (document.documentElement.scrollTop > 700) {
+        
+        
+        if (document.documentElement.scrollTop > 800) {
             document.getElementById("aboutme").className = "slide-left"
         }
-        if (document.documentElement.scrollTop > 1600) {
+        if (document.documentElement.scrollTop > 1800) {
             projects[0].className = "slide-right";
         }
-        if (document.documentElement.scrollTop > 2000) {
+        if (document.documentElement.scrollTop > 2300) {
             projects[1].className = "slide-right";
         }
-        if (document.documentElement.scrollTop > 2700) {
+        if (document.documentElement.scrollTop > 2900) {
             projects[2].className = "slide-right";
         }
-        if (document.documentElement.scrollTop > 3300) {
+        if (document.documentElement.scrollTop > 3500) {
             projects[3].className = "slide-right";
         }
-        if (document.documentElement.scrollTop > 3800) {
+        if (document.documentElement.scrollTop > 4000) {
             projects[4].className = "slide-right";
         }
-        if (document.documentElement.scrollTop > 4300) {
+        if (document.documentElement.scrollTop > 4500) {
             projects[5].className = "slide-right";
         }
         
@@ -159,7 +164,7 @@ function renderProjects(data){
             
         }
     }else if(window.innerWidth <= 320){
-        console.log("kisebb 320");
+        
         if (document.documentElement.scrollTop > 500) {
             document.getElementById("aboutme").className = "slide-left"
         }
@@ -169,10 +174,10 @@ function renderProjects(data){
         if (document.documentElement.scrollTop > 1900) {
             projects[1].className = "slide-right";
         }
-        if (document.documentElement.scrollTop > 2600) {
+        if (document.documentElement.scrollTop > 2400) {
             projects[2].className = "slide-right";
         }
-        if (document.documentElement.scrollTop > 2900) {
+        if (document.documentElement.scrollTop > 2800) {
             projects[3].className = "slide-right";
         }
         if (document.documentElement.scrollTop > 3100) {
