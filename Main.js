@@ -26,8 +26,8 @@ function renderProjects(data){
                 <li>${topics[1]}</li>
                 <li>${topics[2]}</li>
                 </ul>   
-                <a href="${site_link}">Site link</a>
-                <a href="${repo_link}">Repo link</a>
+                <a target="_blank" href="${site_link}">Site link</a>
+                <a target="_blank" href="${repo_link}">Repo link</a>
                 </div>
             </div>
         </div>
@@ -49,8 +49,45 @@ function renderProjects(data){
      
     const projects = document.querySelectorAll("#project")   
     const contacts = document.querySelectorAll(".contactdiv")
+    if(window.innerWidth >= 1024){
+        console.log("1024nal nagyobb");
+        
+        if (document.documentElement.scrollTop > 800) {
+            document.getElementById("aboutme").className = "slide-left"
+        }
+        if (document.documentElement.scrollTop > 1500) {
+            projects[0].className = "slide-right";
+        }
+        if (document.documentElement.scrollTop > 1800) {
+            projects[1].className = "slide-right";
+        }
+        if (document.documentElement.scrollTop > 2200) {
+            projects[2].className = "slide-right";
+        }
+        if (document.documentElement.scrollTop > 2400) {
+            projects[3].className = "slide-right";
+        }
+        if (document.documentElement.scrollTop > 2800) {
+            projects[4].className = "slide-right";
+        }
+        if (document.documentElement.scrollTop > 3100) {
+            projects[5].className = "slide-right";
+        }
+        
+        
+        if (document.documentElement.scrollTop > 3500) {
+            
+            
+            
+            setTimeout(delayed, 0, 0)
+            setTimeout(delayed, 500, 1)
+            setTimeout(delayed, 1000, 2)
+            
+        }
 
-    if(window.innerWidth > 769){
+
+    }   
+    else if(window.innerWidth > 769 && window.innerWidth < 1024){
         console.log("768nal nagyobb");
         
         if (document.documentElement.scrollTop > 800) {
