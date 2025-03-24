@@ -8,8 +8,16 @@ getData(url, renderProjects)
 function renderProjects(data){
     console.log(data);
     
+    
     data.forEach(({id, title, photo_url, repo_link, topics, site_link})=>{
+        let temakorok = ""
         console.log(site_link);
+        topics.forEach(x => {
+            temakorok  += `<li>${x}</li>`
+        })
+        
+    
+        
         
         document.getElementById("munkaim").innerHTML += `
         <div id="project" class="push-right">
@@ -22,9 +30,7 @@ function renderProjects(data){
                 
                 <h3>Témakörök</h3>
                 <ul id="workitems">
-                <li>${topics[0]}</li>
-                <li>${topics[1]}</li>
-                <li>${topics[2]}</li>
+                ${temakorok}
                 </ul>   
                 <a target="_blank" href="${site_link}">Site link</a>
                 <a target="_blank" href="${repo_link}">Repo link</a>
@@ -42,7 +48,7 @@ function renderProjects(data){
 
 
 
-    window.onscroll = function() {addAnimations()};
+    /*/window.onscroll = function() {addAnimations()};
 
     function addAnimations() {
         
@@ -203,6 +209,4 @@ function renderProjects(data){
 
     }
 }
-    
-
-
+*/

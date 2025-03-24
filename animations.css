@@ -1,22 +1,25 @@
 .slide-right {
 	animation: slide-right 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-.slide-left {
-	animation: slide-left 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
+/*/
+
 .push-right{
     transform: translateX(-1000px);
 }
+
 .push-left{
     transform: translateX(1000px);
+    }
+    .slide-up {
+        .slide-left {
+    animation: slide-left 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-.slide-up {
     animation: slide-up 0.4s ease-in both;
 }
 .push-down {
     transform: translateY(180px);
     
-}
+}/*/
 @keyframes slide-right {
     0% {      
               transform: translateX(-1000px);
@@ -27,7 +30,7 @@
     }
   }
 
-@keyframes slide-up {
+/*/@keyframes slide-up {
 
     0% {
             transform: translateY(180px);
@@ -46,4 +49,4 @@
     100% {      
               transform: translateX(0);
     }
-  }
+  }/*/
